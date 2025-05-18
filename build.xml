@@ -22,7 +22,7 @@
   <!-- =================================================================== -->
 
   <path id="build.class.path">
-    <pathelement location="${servlet.lib}"/>
+    <pathelement location="${servlet.jar}"/>
     <fileset dir="lib">
         <include name="*.jar"/>
     </fileset>
